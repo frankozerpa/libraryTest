@@ -1,0 +1,26 @@
+{
+    "name": "fzerpa/library-test",
+    "description": "Repositorio de prueba , aprender a crear librerias para laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "frankozerpa",
+            "email": "frankozerpa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Proyecto\\Math\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    }
+}
